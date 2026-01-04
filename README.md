@@ -48,7 +48,7 @@ I’m solving problems topic-wise to build strong fundamentals and improve probl
 ## 🧪 Language & Tools Used
 
 - **Language:** Python 🐍
-- **IDE:** VS Code  
-- **Platform Practice:** LeetCode, GFG, HackerRank  
+- **IDE:** VS Code, Google Colab  
+- **Platform Practice:** LeetCode 
 
 ---
