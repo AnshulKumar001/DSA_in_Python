@@ -25,3 +25,18 @@ obj=Solution()
 print(obj.isPowerOfTwo(1))    #output: True 
 print(obj.isPowerOfTwo(16))   #output: True
 print(obj.isPowerOfTwo(3))    #output: False 
+
+
+
+ 
+#class Solution2(object):
+#   def isPowerOfTwo(self,n) ->bool:
+#Base case
+#      if n<=0:
+#         return False
+#      if n==1:
+#         return True
+#      if n%2!=0:
+#         return False
+#Recursive case
+#      return self.isPowerOfTwo(n//2) 
