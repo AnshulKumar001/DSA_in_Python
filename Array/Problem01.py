@@ -18,13 +18,10 @@ Input: nums = [3,1,2,10,1]
 Output: [3,4,6,16,17]'''
 
 def runningSum(nums):
-    n=len(nums)
-    ans=[]
-    ans.append(nums[0])
-    for i in range (1,n):
-        x=ans[i-1]+nums[i]
-        ans.append(x)
-    return ans
+        for i in range(1, len(nums)):
+            nums[i] = nums[i] + nums[i-1]
+        return nums
+
 print(runningSum([1,2,3,4]))      #output: [1,3,6,10]    
        
  
