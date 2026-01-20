@@ -22,9 +22,9 @@ class Solution(object):
         num=x
         rev=0
         while num>0:
-            r=num%10
-            num//=10
-            rev=rev*10+r
+            last_digit=num%10
+            num=num//10
+            rev=rev*10+last_digit
         return rev==x
 print(Solution().isPalindrome(121))  # output: True
 print(Solution().isPalindrome(-121)) # output: False
