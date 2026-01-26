@@ -25,23 +25,28 @@ Example 3:
 Input: arr = [3,8,-10,23,19,-4,-14,27]
 Output: [[-14,-10],[19,23],[23,27]]'''
 
-import List
+
+from typing import List
+
 class Solution:
     def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:
         arr.sort()
-        n=len(arr)
+        n = len(arr)
         minDiff = float('inf')
-        
-        # Step 1: Find minimum difference
+
         for i in range(1, n):
             minDiff = min(minDiff, arr[i] - arr[i - 1])
-        
-        # Step 2: Collect pairs
+
         ans = []
         for i in range(1, n):
             if arr[i] - arr[i - 1] == minDiff:
                 ans.append([arr[i - 1], arr[i]])
-        
+
         return ans
 
- 
+
+# 👇 YE PART VS CODE KE LIYE ZAROORI HAI
+if __name__ == "__main__":
+    arr = [4, 2, 1, 3]   # input
+    sol = Solution()
+    print(sol.minimumAbsDifference(arr))
