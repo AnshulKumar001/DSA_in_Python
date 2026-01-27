@@ -2,6 +2,7 @@
 from array import *
 res=0
 val=array('i',[1,2,0,4,5,6])
+
 for i in range (0,len(val)):
     print(val[i],end=' ')
 val.insert(0,0)
@@ -13,9 +14,20 @@ rev.pop(6)
 for i in range (0,len(rev)):
     print(rev[i],end=' ')
 
+print("\n")
+#slicing
+sli=rev[2:4]
+for i in range (0,len(sli)):
+    print(sli[i],end=' ')
 
 
 
+print("\n")
+#searching
+
+src=array('i',[1,2,0,4,5,6])
+i=src.index(0)#index
+print(i)
 
 #for x in val :
 #    print(x,end=" ")
