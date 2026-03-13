@@ -39,3 +39,8 @@ arrr=[3,4,34,643]
 elem=50
 arrr.insert(0,elem)
 print(arrr)
+
+#Delete
+arr1=[3,4,34,643]
+del arr1[0]
+print(arr1)
