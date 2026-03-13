@@ -42,5 +42,6 @@ print(arrr)
 
 #Delete
 arr1=[3,4,34,643]
-del arr1[0]
+#del arr1[0]
+arr1.pop(3)
 print(arr1)
