@@ -5,5 +5,7 @@ def Search(n,key, arr):
     for i in range(n):
         if arr[i]==key:
             return i
+    return -1
 
-
+result = Search(n, key, arr)
+print(result)
