@@ -45,3 +45,10 @@ arr1=[3,4,34,643]
 #del arr1[0]
 arr1.pop(3)
 print(arr1)
+
+
+#Middle Number (slicing)
+brr = [1,2,3,4]
+
+middle = brr[len(brr)//2]
+print(middle)
