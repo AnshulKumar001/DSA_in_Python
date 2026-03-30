@@ -46,3 +46,15 @@ print("After pop ",upd)
 
 del upd[1]
 print("After del",upd)
+
+#iterating
+fruits=["Apple","Banana","Mango","kivi","orange"]
+for item in fruits:
+    print(item)
+
+
+#list Sqr
+v=[x**2 for x in range(1,6)] 
+print(v)   
+
+
