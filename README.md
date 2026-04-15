@@ -21,7 +21,7 @@ I’m solving problems topic-wise to build strong fundamentals and improve probl
 - Recursion
 - Bit Manipulation
 
-### 🔹 Data Structures
+### 🔹📜 Data Structures
 - Arrays
 - Strings
 - Linked List
