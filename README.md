@@ -1,4 +1,4 @@
-# 📘 Data Structures & Algorithms in Python
+# Data Structures & Algorithms in Python
 
 This repository contains my **Data Structures and Algorithms (DSA)** journey using **Python**.  
 I’m solving problems topic-wise to build strong fundamentals and improve problem-solving skills for **coding interviews & placements**.
